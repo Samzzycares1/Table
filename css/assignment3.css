@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+.head1 th{
+background-color: red;
+}
+/* th{
+    background-color: blueviolet;
+    
+    padding-right: 30px;
+} */
+
+.head2 th{
+    background-color: green;
+}
+
+.head3 th{
+    background-color: blue;
+    padding-left: -20px;
+}
+tr:nth-child(even){
+    background-color: rgb(247, 243, 243);
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+.section1, .section2, .section3{
+    margin: 40px;
+}
+.section1{
+    width: 900px;
+    height: 200px;
+}
+.section2{
+    width: 900px;
+    height: 200px;
+}
+.section3{
+    width: 900px;
+    height: 200px;
+}
+.section2,.section1, .section3, tr, td, th{
+    padding: 10px;
+    border-collapse: collapse;
+    padding-bottom: 1px;
+}
+td{
+    padding-left: 60px;
+}
+table{
+    margin: 30px;
+}
